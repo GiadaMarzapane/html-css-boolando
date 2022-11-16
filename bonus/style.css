@@ -164,3 +164,26 @@ footer ul li a{
 footer div:nth-of-type(2) > *{
     text-align: center;
 }
+
+/* BONUS */
+.profile-header a:first-of-type:hover:after{
+    content: 'Profilo';
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 12px;
+}
+.profile-header a:nth-of-type(2):hover:after {
+    content: 'Preferiti';
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 12px;
+}
+.profile-header a:last-of-type:hover:after {
+    content: 'Carrello';
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 12px;
+}

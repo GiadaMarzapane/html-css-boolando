@@ -1,0 +1,166 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.product-description>span {
+    font-size: 10px;
+}
+
+.discount-price {
+    color: red;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+.product-description {
+    line-height: 14px
+}
+
+.percentuale{
+    background-color: red;
+}
+
+.sostenibilità{
+    background-color: green;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+/* REGOLE HEADER */
+
+header{
+    background-color: #ff6900;
+    padding: 14px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+.header-section > *{
+    width: calc(100% / 3);
+}
+
+.link-header ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.link-header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.logo-header img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+.profile-header{
+    display: block;
+    text-align: right;
+}
+.profile-header a {
+    display: inline-block;
+    padding: 0 5px;
+    color: white;
+}
+
+.like-item:hover{
+    color: red;
+    font-size: larger;
+}
+
+/* REGOLE MAIN */
+main{
+    padding-top: 80px;
+}
+main section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    display: block;
+    max-width: calc((100% / 3) - 10px);
+    margin-bottom: 30px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
+.hover-img{
+    display: none;
+}
+
+.card:hover .img-web {
+    display: none;
+}
+.card:hover .hover-img{
+    display: inline-block;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+.sconto{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+}
+.sconto > span{
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 10px;
+}
+
+.like-item{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* REGOLE FOOTER */
+footer{
+    background-color: #262724;
+    color: white;
+    padding: 20px 0;
+}
+
+footer section{
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+footer div:nth-of-type(2) > *{
+    text-align: center;
+}

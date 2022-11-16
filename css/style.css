@@ -54,3 +54,19 @@ header{
     padding: 0 5px;
     color: white;
 }
+
+/* REGOLE MAIN */
+main{
+    margin: 50px 0;
+}
+main section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    max-width: calc((100% / 3) - 10px);
+    margin-bottom: 30px;
+}
+.card img{
+    width: 100%;
+}

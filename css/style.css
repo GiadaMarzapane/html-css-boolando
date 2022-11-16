@@ -18,7 +18,32 @@ body {
     display: flex;
 }
 
+.product-description>span {
+    font-size: 10px;
+}
+
+.discount-price {
+    color: red;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+.product-description {
+    line-height: 14px
+}
+
+.percentuale{
+    background-color: red;
+}
+
+.sostenibilità{
+    background-color: green;
+}
+
 /* REGOLE HEADER */
+
 header{
     background-color: #ff6900;
     padding: 14px 0;
@@ -64,9 +89,45 @@ main section {
     justify-content: space-between;
 }
 .card {
+    display: block;
     max-width: calc((100% / 3) - 10px);
     margin-bottom: 30px;
+    position: relative;
 }
 .card img{
     width: 100%;
+}
+.hover-img{
+    display: none;
+}
+
+.card:hover .img-web {
+    display: none;
+}
+.card:hover .hover-img{
+    display: inline-block;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+.sconto{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+}
+.sconto > span{
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 10px;
+}
+
+.like-item{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.like-item:hover{
+    color: red;
 }

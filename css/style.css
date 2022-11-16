@@ -131,3 +131,28 @@ section a{
 .like-item:hover{
     color: red;
 }
+
+/* REGOLE FOOTER */
+footer{
+    background-color: #262724;
+    color: white;
+    padding: 20px 0;
+}
+
+footer section{
+    justify-content: space-between;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+footer div:nth-of-type(2) > *{
+    text-align: center;
+}
